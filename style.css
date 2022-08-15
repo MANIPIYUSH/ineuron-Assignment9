@@ -11,6 +11,9 @@ header{
 
   background-color: blue;
   height: 350px;width: 1000px;
+  
+
+  
 }
 
 nav{
@@ -27,9 +30,10 @@ nav{
   color: black;
 
 }
-img.logo{
-  margin-left: 30px;
-  margin-top: -30px;
+.logo img{
+  margin-left: 60px;
+  margin-top: -65px;
+  transform: rotate(270deg);
 }
 .header-text img{
 
@@ -254,4 +258,87 @@ margin-left: 30px;
 
   margin-left: 30px;
   margin-top: 20px;
+  transform: rotate(270deg);
+  width: 10px;height: 25px;
 }
+
+ 
+@media screen and (max-width: 480px) {
+  header {
+    background-color: lightgreen;
+    
+  }
+  
+  nav a{
+           
+         display: flex;
+         flex-direction: column;
+         color:#120E43;
+         margin-left: -180px;
+  }
+  .header-text h2{
+    font-size: 15px;
+    color: brown;
+    margin-top: -60px;
+  }
+    .header-text p{
+      color: brown;
+    }
+  
+ .header-image{
+         height: 150px;width: 250px;
+         float: left;
+         margin-top: 200px;
+         margin-left: 10px;
+
+ }
+ .companies{
+  display: flex;
+  flex-direction: column;
+ }
+ .api{
+       display: flex;
+       flex-direction: column;
+       position: relative;
+       top: 180px;left: -220px;
+       gap: -40px;
+       
+
+ }
+ .blog-heading{
+     position: relative;
+     top: 150px;
+     color: brown;
+     font-size: 10px;
+
+ }
+ /* .blog-cards{
+  height: 150px;width: 250px;
+  float: left;
+  margin-top: 200px;
+  margin-left: 10px;
+ } */
+ 
+.faq-content{
+
+  color: brown;
+  font-size: 15px;
+}
+.faq-image{
+  height: 150px;width: 300px;
+  margin-left: -90px;
+}
+.download-content{
+  position: relative;
+  top: 160px;
+}
+.footer-section{
+  position: relative;
+  top: 250px;
+}
+.download-email{
+  position: relative;
+  top: 270px;
+  left: -550px;
+}
+} 
